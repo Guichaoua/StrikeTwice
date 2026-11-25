@@ -13,12 +13,15 @@ Paths on the same graph can share the first encoding.
 Installation
 ------------
 
-Use Python 3.9 or newer. Run this command from the release repository to
-install the package and its PyTorch dependency.
+Use Python 3.9 or newer. Install StrikeTwice and its PyTorch dependency from
+`PyPI <https://pypi.org/project/StrikeTwice/>`_.
 
 .. code-block:: shell
 
-   python -m pip install .
+   pip install StrikeTwice
+
+To install from a source checkout, run ``python -m pip install .`` at the
+repository root.
 
 Import the models from ``path_augmented_transformer``. The StrikeTwice
 tutorial includes the Task 2 held-out evaluation and cache timing benchmark
