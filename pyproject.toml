@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "StrikeTwice"
+version = "0.1.0"
+description = "PyTorch implementation of StrikeTwice and the Edge–Vertex Transformer"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Gwenn Guichaoua" },
+    { name = "Elodie Laine" },
+]
+dependencies = ["torch>=2.1"]
+
+[tool.setuptools.packages.find]
+include = ["path_augmented_transformer", "path_augmented_transformer.*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+path_augmented_transformer = ["resources/task2_reference.pt.gz"]
