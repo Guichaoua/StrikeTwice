@@ -1,3 +1,5 @@
+<img src="docs/images/striketwice-logo.png" alt="StrikeTwice logo" width="300">
+
 # StrikeTwice
 
 Core PyTorch implementation for *StrikeTwice: Reusable Graph Representations for Path Prediction* by Gwenn Guichaoua and Elodie Laine.

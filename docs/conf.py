@@ -16,6 +16,7 @@ extensions = [
 
 exclude_patterns = ["_build", "**/.ipynb_checkpoints"]
 html_theme = "sphinx_rtd_theme"
+html_logo = "images/striketwice-logo.png"
 
 nbsphinx_execute = "always"
 nbsphinx_timeout = 120
