@@ -6,7 +6,13 @@ The Edge–Vertex Transformer (EVT) encodes vertex and ordered-pair features. St
 
 ## Installation
 
-Use Python 3.9 or newer. To install `StrikeTwice` and its PyTorch dependency from a source checkout, run this command from the repository root.
+Use Python 3.9 or newer. Install StrikeTwice and its PyTorch dependency from PyPI.
+
+```sh
+python -m pip install StrikeTwice
+```
+
+To install from a source checkout, run this command from the repository root.
 
 ```sh
 python -m pip install .
@@ -16,9 +22,9 @@ Import the models from `path_augmented_transformer`.
 
 ## Documentation
 
-The [Sphinx documentation](docs/index.rst) includes two runnable notebooks and a Python API reference. Documentation builds use CPU by default, including on [Read the Docs](.readthedocs.yaml).
+The [documentation on Read the Docs](https://striketwice.readthedocs.io/en/latest/) includes two runnable notebooks and a Python API reference. Documentation builds use CPU by default.
 
-The [Task 2 notebook](docs/tutorials/striketwice.ipynb) uses CUDA or Apple Metal (MPS) when available. Set `STRIKETWICE_TASK2_DEVICE` to `cuda`, `mps`, or `cpu` before launching Jupyter to choose a backend explicitly.
+The [Task 2 notebook](https://striketwice.readthedocs.io/en/latest/tutorials/striketwice.html#Task-2-benchmark) uses CUDA or Apple Metal (MPS) when available. Set `STRIKETWICE_TASK2_DEVICE` to `cuda`, `mps`, or `cpu` before launching Jupyter to choose a backend explicitly.
 
 To build locally, put Pandoc on your PATH and run these commands from the repository root.
 
